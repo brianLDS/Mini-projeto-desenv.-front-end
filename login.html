@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -128,4 +129,109 @@
     </footer>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles.css">
+    <title>Cadastro - Papel & Poesia</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <p id="nav_logo"> Papel <i>&</i> poesia</p>
+            <ul id="nav_list">
+                <li class="nav-item">
+                    <a href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html">Cadastro</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contatos.html">Contatos</a>
+                </li>
+
+
+            </ul>
+
+             <a href="sobre.html"><button class="btn-default">Sobre nós</button></a>
+
+        </nav>
+    </header>
+    <main id="conteudo">
+        <section id="cadastro">
+            <h1>Cadastro</h1>
+            <form id="formCadastro" action="#" method="post">
+                <label>Nome:</label>
+                <input type="text" name="nome" placeholder="Digite seu nome..." required
+                    oninvalid="this.setCustomValidity('Digite seu nome')" oninput="this.setCustomValidity('')"> <br>
+
+                <label for="inSenha">Senha:</label>
+                <input type="password" name="senha" id="inSenha" required minlength="6" maxlength="12"
+                    oninvalid="this.setCustomValidity('Digite sua senha entre 6 e 12 caracteres')"
+                    oninput="this.setCustomValidity('')" placeholder="Crie sua senha..."> <br>
+
+                <label for="inMail">Email:</label>
+                <input type="email" name="email" id="inMail" required
+                    oninvalid="this.setCustomValidity('Digite seu email corretamente')"
+                    oninput="this.setCustomValidity('')" placeholder="Digite seu email..."> <br>
+
+                <label for="inData">Data de nascimento:</label> <br>
+                <input type="date" name="nascimento" id="inData" required
+                    oninvalid="this.setCustomValidity('Insira sua data de nascimento')"
+                    oninput="this.setCustomValidity('')">
+                <br>
+
+                <label for="slCidades">Selecione sua cidade:</label>
+                <select id="slCidades" required oninvalid="this.setCustomValidity('Selecione sua cidade')"
+                    oninput="this.setCustomValidity('')">
+                    <option value="1">Vitória</option>
+                    <option value="2">Serra</option>
+                    <option value="3">Vila Velha</option>
+                </select> <br>
+
+                <label for="rdSexo">Selecione seu genero:</label> <br>
+                <input type="radio" name="sexo" id="rdSexo" value="M" required> Masculino
+                <input type="radio" name="sexo" id="rdSexo" value="F" required> Feminino <br>
+
+                <label>Marque seus interesses para melhorarmos nossas recomendações:</label> <br>
+                <input type="checkbox" name="interesse" value="Cadernos"> Cadernos
+                <input type="checkbox" name="interesse" value="Agendas"> Agendas
+                <input type="checkbox" name="interesse" value="Canetas/Lapis"> Canetas/lapis
+                <input type="checkbox" name="interesse" value="Gráfica"> Gráfica
+                <br><br>
+
+
+                <textarea name="mensagem" rows="5" cols="30"
+                    placeholder="Deixe uma mensagem para nossa equipe!"></textarea>
+                <br>
+            
+                <input type="submit" name="enviar">
+
+            </form>
+         </section>
+
+    </main>
+
+    <footer>
+        <div id="rodape-conteudo">
+            <p>&copy; 2026 Papel & Poesia. Todos os direitos reservados.</p>
+            <p>Desenvolvido por Brian</p>
+
+        </div>
+
+    </footer>
+</body>
+
+>>>>>>> 01616fa97f8bf54217333215f471260a60ed5708
 </html>
