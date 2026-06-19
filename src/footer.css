@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --cor-fundo: radial-gradient(circle at top, #453d32 0%, #2f2a24 45%, #191512 100%);
+    --cor-superficie: #edece8;
+    --cor-superficie-suave: #f2ebe3;
+    --cor-texto-claro: #edece8;
+    --cor-texto-escuro: #2f2a24;
+    --cor-destaque: #a88f60;
+    --cor-destaque-forte: #6e5d3b;
+    --cor-suporte: #655b51;
+    --cor-secundaria: #b8a086;
+    --raio-borda: 24px;
+    --fonte-titulo: 'Bree Serif', serif;
+    --fonte-texto: 'Libre Baskerville', serif;
+    --tamanho-titulo: 28px;
+}
+
+
+footer {
+    padding: 2rem 1.5rem;
+    background: var(--cor-destaque-forte);
+
+}
+
+#rodape-conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    color: var(--cor-texto-claro);
+    font-size: 0.95rem;
+}
